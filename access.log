@@ -27,3 +27,14 @@
 ::ffff:127.0.0.1 - - [26/Apr/2024:13:55:11 +0000] "GET /api/user/get-users HTTP/1.1" 200 274
 ::ffff:127.0.0.1 - - [26/Apr/2024:13:57:31 +0000] "POST /api/auth/register HTTP/1.1" 201 54
 ::ffff:127.0.0.1 - - [26/Apr/2024:14:01:54 +0000] "GET /api/user/get-users HTTP/1.1" 200 408
+::1 - - [26/Apr/2024:14:08:54 +0000] "POST /api/auth/login HTTP/1.1" 200 246
+::1 - - [26/Apr/2024:14:10:12 +0000] "POST /api/auth/register HTTP/1.1" 201 54
+::ffff:127.0.0.1 - - [26/Apr/2024:14:11:16 +0000] "GET /api/user/get-users HTTP/1.1" 200 546
+::1 - - [26/Apr/2024:14:11:36 +0000] "GET /api/user/get-users HTTP/1.1" 401 27
+::1 - - [26/Apr/2024:14:11:54 +0000] "GET /api/user/get-users HTTP/1.1" 200 546
+::1 - - [26/Apr/2024:14:14:01 +0000] "GET /api/user/get-user/U-768818 HTTP/1.1" 200 133
+::1 - - [26/Apr/2024:14:15:37 +0000] "DELETE /api/user/delete-user/U-234863 HTTP/1.1" 200 42
+::1 - - [26/Apr/2024:14:15:39 +0000] "DELETE /api/user/delete-user/U-234863 HTTP/1.1" 400 75
+::1 - - [26/Apr/2024:14:17:02 +0000] "PUT /api/user/delete-user/U-768818 HTTP/1.1" 404 168
+::1 - - [26/Apr/2024:14:17:10 +0000] "PUT /api/user/update-user/U-768818 HTTP/1.1" 200 54
+::1 - - [26/Apr/2024:14:17:14 +0000] "GET /api/user/get-user/U-768818 HTTP/1.1" 200 136
