@@ -1,7 +1,7 @@
 **_PROBASE ASSESSMENT API_**
 
-**Installation**
+**Installation**:
 npm install
 
-**run**
+**run**:
 npm start
