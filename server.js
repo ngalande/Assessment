@@ -1,4 +1,3 @@
-//modules
 const express = require('express');
 const dotenv = require('dotenv');
 const bodyParser = require('body-parser');
@@ -50,7 +49,7 @@ function authenticateToken(req, res, next) {
 
     console.log(token);
     if (!token) {
-        return res.status(401).json({ message: "Unauthorised!" });
+        return res.status(403).json({ message: "Unauthorised!" });
     }
 
     jwt.verify(token, JWT_SECRET, (err, user) => {
